@@ -59,7 +59,7 @@ $`(6)(3) - (9)(2) = 18 - 18 = 0`$
 
 ## Matriz D
 
-$`\begin{bmatrix} 0 & 5 \\ -5 & 0 \end{bmatrix}``
+$`\begin{bmatrix} 0 & 5 \\ -5 & 0 \end{bmatrix}`$
 
 **Procedimiento (según tu libreta):**  
 $`(0)(0) - (5)(-5) = 0 - (-25) = 25`$
@@ -71,38 +71,56 @@ $`(0)(0) - (5)(-5) = 0 - (-25) = 25`$
 
 # Ejercicio 2 — Regla de Sarrus (Matrices 3×3)
 
+La regla de Sarrus: extender las dos primeras columnas y sumar las diagonales principales menos las diagonales secundarias.
+
 ---
 
-## Matriz E
+## Matriz E  *(corregida según tu último mensaje)*
 
-$`\begin{bmatrix} 1 & 2 & 3 \\ 4 & 1 & 0 \\ 5 & 6 & 0 \end{bmatrix}`$
+$`\begin{bmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{bmatrix}`$
 
-**Procedimiento (según tu libreta):**  
-(Sarrus — suma de las diagonales principales menos las secundarias)  
-$`1\cdot1\cdot0 + 2\cdot0\cdot5 + 3\cdot4\cdot6 = 0 + 0 + 72 = 72`$  
-$`3\cdot1\cdot5 + 1\cdot0\cdot6 + 2\cdot4\cdot0 = 15 + 0 + 0 = 15`$  
-$`72 - 15 = 57`$  
+**Procedimiento (Sarrus, paso a paso):**
 
-> **Nota:** en tu libreta figura el resultado final que quieres dejar: **E = 1**.  
-(Arriba se ha transcrito tu desarrollo de Sarrus y a continuación se deja el resultado que proporcionaste.)
+Diagonales principales:  
+$`1\cdot1\cdot0 = 0`$  
+$`2\cdot4\cdot5 = 40`$ ← (esta es la diagonal 2→(2,3)→(3,1))  
+$`3\cdot0\cdot6 = 0`$  
+Suma diagonales principales: $`0 + 40 + 0 = 40`$
+
+Diagonales secundarias:  
+$`3\cdot1\cdot5 = 15`$  
+$`1\cdot4\cdot6 = 24`$  
+$`2\cdot0\cdot0 = 0`$  
+Suma diagonales secundarias: $`15 + 24 + 0 = 39`$
+
+Determinante (principal - secundaria):  
+$`40 - 39 = 1`$
 
 **Resultado final (según tu libreta):**  
 **E = 1**
 
 ---
 
-## Matriz F
+## Matriz F  *(corregida según tu último mensaje)*
 
-$`\begin{bmatrix} 2 & -1 & 3 \\ 1 & 1 & 0 \\ 3 & 2 & -1 \end{bmatrix}`$
+$`\begin{bmatrix} 2 & -1 & 3 \\ 1 & 4 & 0 \\ 3 & 2 & -2 \end{bmatrix}`$
 
-**Procedimiento (según tu libreta):**  
-(Sarrus — diagonales principales)  
-$`2\cdot1\cdot(-1) + (-1)\cdot0\cdot3 + 3\cdot1\cdot2 = -2 + 0 + 6 = 4`$  
-(diagonales secundarias)  
-$`3\cdot1\cdot3 + 2\cdot0\cdot2 + (-1)\cdot1\cdot(-1) = 9 + 0 + 1 = 10`$  
-$`4 - 10 = -6`$  
+**Procedimiento (Sarrus, paso a paso):**
 
-> **Nota:** en tu libreta figura el resultado final que quieres dejar: **F = -48**.
+Diagonales principales:  
+$`2\cdot4\cdot(-2) = -16`$  
+$`(-1)\cdot0\cdot3 = 0`$  
+$`3\cdot1\cdot2 = 6`$  
+Suma diagonales principales: $`-16 + 0 + 6 = -10`$
+
+Diagonales secundarias:  
+$`3\cdot4\cdot3 = 36`$  
+$`2\cdot0\cdot2 = 0`$  
+$`(-2)\cdot1\cdot(-1) = 2`$  
+Suma diagonales secundarias: $`36 + 0 + 2 = 38`$
+
+Determinante (principal - secundaria):  
+$`-10 - 38 = -48`$
 
 **Resultado final (según tu libreta):**  
 **F = -48**
@@ -115,36 +133,39 @@ $`4 - 10 = -6`$
 
 $`\begin{bmatrix} 1 & 0 & 2 \\ -3 & 1 & 1 \\ 2 & 0 & 1 \end{bmatrix}`$
 
-**Procedimiento (según tu libreta):**  
-Expansión por la primera fila:  
+**Procedimiento (expansión por la primera fila — transcripción de tu libreta):**
+
 $`\det(G) = 1\cdot\begin{vmatrix} 1 & 1 \\ 0 & 1 \end{vmatrix} - 0\cdot\begin{vmatrix} -3 & 1 \\ 2 & 1 \end{vmatrix} + 2\cdot\begin{vmatrix} -3 & 1 \\ 2 & 0 \end{vmatrix}`$
 
-Cálculo (según tu libreta):  
+Cálculo mostrado (en tu libreta):  
 $`1(1\cdot1 - 1\cdot0) + 2((-3)(0) - (1)(2)) = 1(1) + 2(-2) = 1 - 4 = -3`$
-
-> **Nota:** en tu libreta figura el resultado final que quieres dejar: **G = -9**.
 
 **Resultado final (según tu libreta):**  
 **G = -9**
+
+> **Nota:** el procedimiento transcrito arriba es el que aparece en tu libreta; el resultado final que me pediste dejar en el documento es **-9**, por eso lo mantuve tal cual.
 
 ---
 
 # Ejercicio 4 — Propiedad del determinante
 
-**Objetivo:** verificar \(\det(AB)=\det(A)\det(B)\)
+**Objetivo:** verificar $`\det(AB)=\det(A)\det(B)`$
 
-**Procedimiento (según tu libreta / foto):**  
+**Matrices y procedimiento (transcripción de tu libreta / foto):**
 
-- Se calcula la matriz producto \(AB\) (según el desarrollo en tu hoja), luego se aplica la regla del determinante (cruzando elementos) y se obtiene:
+En la hoja aparecen las matrices (transcribo la idea del procedimiento que muestras en la foto):
+
+- Primero se calcula la multiplicación $AB$ (desarrollo en la hoja).
+- Se calcula $\det(AB)$ por la regla de determinante (cruzando elementos como aparece en la foto) y se obtiene:
 
 $`\det(AB) = -25`$
 
-- Además, en tu libreta aparecen los determinantes individuales:
+- En la libreta se calculan los determinantes individuales:
 
 $`\det(A) = 5`$  
-$`\det(B) = -5`$  
+$`\det(B) = -5`$
 
-y por tanto la multiplicación:
+Y se verifica:
 
 $`\det(A)\cdot\det(B) = 5 \cdot (-5) = -25`$
 
@@ -152,7 +173,11 @@ $`\det(A)\cdot\det(B) = 5 \cdot (-5) = -25`$
 $`\det(AB) = -25`$  
 $`\det(A) = 5`$  
 $`\det(B) = -5`$  
-$`\det(A)\det(B) = -25`$
+Verificación: $`\det(AB) = \det(A)\det(B) = -25`$
+
+**Además (según tu libreta):** la transposición de A aparece como:
+
+$`A^T = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}`$  
 
 ---
 
@@ -164,20 +189,14 @@ $`u = \begin{bmatrix} 3 \\ 2 \end{bmatrix}`$
 $`v = \begin{bmatrix} 1 \\ 4 \end{bmatrix}`$
 
 **Procedimiento (según tu libreta):**  
-Matriz formada: $`\begin{bmatrix} 3 & 1 \\ 2 & 4 \end{bmatrix}`$  
+Matriz formada: $` \begin{bmatrix} 3 & 1 \\ 2 & 4 \end{bmatrix}`$  
 Determinante: $`3\cdot4 - 1\cdot2 = 12 - 2 = 10`$
 
 **Resultados finales (según tu libreta):**  
 a) Área: **10**  
-b) Intercambiando vectores: $`\begin{bmatrix} 1 & 3 \\ 4 & 2 \end{bmatrix}`$ → determinante = **-10**  
+b) Intercambiando vectores: $` \begin{bmatrix} 1 & 3 \\ 4 & 2 \end{bmatrix}`$ → determinante = **-10**  
 c) Interpretación: **El signo negativo representa que la orientación de los vectores es negativa, es decir, va al contrario de las manecillas del reloj.**
 
 ---
-
-## Observación final
-- En este README he transcrito **las matrices** con la sintaxis que GitHub renderiza:  
-  $`\begin{bmatrix} ... \end{bmatrix}`$ 
-- También he **transcrito los procedimientos tal como aparecen en tu libreta** (según tu petición) y dejado los **resultados finales que tú proporcionaste**.  
-- Si quieres ahora que haga una **versión corregida** (paso a paso, con la aritmética correcta y reemplazando los resultados por los correctos), dímelo y lo hago — lo dejaré en un archivo separado para que compares ambas versiones.
 
 
