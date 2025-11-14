@@ -47,7 +47,7 @@ $`(-1)(-8) - (4)(2) = 8 - 8 = 0`$
 
 ## Matriz C
 
-$`\begin{bmatrix} 6 & 9 \\ 2 & 3 \end{bmatrix}``
+$`\begin{bmatrix} 6 & 9 \\ 2 & 3 \end{bmatrix}`$
 
 **Procedimiento (según tu libreta):**  
 $`(6)(3) - (9)(2) = 18 - 18 = 0`$
