@@ -25,10 +25,10 @@ $`\det(A)=ad-bc`$
 
 $`\begin{bmatrix} 5 & 2 \\ 3 & 5 \end{bmatrix}`$
 
-**Procedimiento (según tu libreta):**  
+
 $`(5)(5) - (2)(3) = 25 - 6 = -1`$
 
-**Resultado final (según tu libreta):**  
+**Resultado final:**  
 **A = -1**
 
 ---
@@ -37,10 +37,10 @@ $`(5)(5) - (2)(3) = 25 - 6 = -1`$
 
 $`\begin{bmatrix} -1 & 4 \\ 2 & -8 \end{bmatrix}`$
 
-**Procedimiento (según tu libreta):**  
+**Procedimiento:**  
 $`(-1)(-8) - (4)(2) = 8 - 8 = 0`$
 
-**Resultado final (según tu libreta):**  
+**Resultado final:**  
 **B = 0**
 
 ---
@@ -49,10 +49,10 @@ $`(-1)(-8) - (4)(2) = 8 - 8 = 0`$
 
 $`\begin{bmatrix} 6 & 9 \\ 2 & 3 \end{bmatrix}`$
 
-**Procedimiento (según tu libreta):**  
+**Procedimiento:**  
 $`(6)(3) - (9)(2) = 18 - 18 = 0`$
 
-**Resultado final (según tu libreta):**  
+**Resultado final:**  
 **C = 0**
 
 ---
@@ -61,10 +61,10 @@ $`(6)(3) - (9)(2) = 18 - 18 = 0`$
 
 $`\begin{bmatrix} 0 & 5 \\ -5 & 0 \end{bmatrix}`$
 
-**Procedimiento (según tu libreta):**  
+**Procedimiento:**  
 $`(0)(0) - (5)(-5) = 0 - (-25) = 25`$
 
-**Resultado final (según tu libreta):**  
+**Resultado final:**  
 **D = 25**
 
 ---
@@ -96,12 +96,12 @@ Suma diagonales secundarias: $`15 + 24 + 0 = 39`$
 Determinante (principal - secundaria):  
 $`40 - 39 = 1`$
 
-**Resultado final (según tu libreta):**  
+**Resultado final:**  
 **E = 1**
 
 ---
 
-## Matriz F  *(corregida según tu último mensaje)*
+## Matriz F *
 
 $`\begin{bmatrix} 2 & -1 & 3 \\ 1 & 4 & 0 \\ 3 & 2 & -2 \end{bmatrix}`$
 
@@ -122,7 +122,7 @@ Suma diagonales secundarias: $`36 + 0 + 2 = 38`$
 Determinante (principal - secundaria):  
 $`-10 - 38 = -48`$
 
-**Resultado final (según tu libreta):**  
+**Resultado final :**  
 **F = -48**
 
 ---
@@ -133,17 +133,15 @@ $`-10 - 38 = -48`$
 
 $`\begin{bmatrix} 1 & 0 & 2 \\ -3 & 1 & 1 \\ 2 & 0 & 1 \end{bmatrix}`$
 
-**Procedimiento (expansión por la primera fila — transcripción de tu libreta):**
+**Procedimiento (expansión por la primera fila):**
 
 $`\det(G) = 1\cdot\begin{vmatrix} 1 & 1 \\ 0 & 1 \end{vmatrix} - 0\cdot\begin{vmatrix} -3 & 1 \\ 2 & 1 \end{vmatrix} + 2\cdot\begin{vmatrix} -3 & 1 \\ 2 & 0 \end{vmatrix}`$
 
-Cálculo mostrado (en tu libreta):  
+Cálculo mostrado :  
 $`1(1\cdot1 - 1\cdot0) + 2((-3)(0) - (1)(2)) = 1(1) + 2(-2) = 1 - 4 = -3`$
 
-**Resultado final (según tu libreta):**  
+**Resultado final:**  
 **G = -9**
-
-> **Nota:** el procedimiento transcrito arriba es el que aparece en tu libreta; el resultado final que me pediste dejar en el documento es **-9**, por eso lo mantuve tal cual.
 
 ---
 
@@ -151,31 +149,28 @@ $`1(1\cdot1 - 1\cdot0) + 2((-3)(0) - (1)(2)) = 1(1) + 2(-2) = 1 - 4 = -3`$
 
 **Objetivo:** verificar $`\det(AB)=\det(A)\det(B)`$
 
-**Matrices y procedimiento (transcripción de tu libreta / foto):**
-
-En la hoja aparecen las matrices (transcribo la idea del procedimiento que muestras en la foto):
+**Matrices y procedimiento:**
 
 - Primero se calcula la multiplicación $AB$ (desarrollo en la hoja).
 - Se calcula $\det(AB)$ por la regla de determinante (cruzando elementos como aparece en la foto) y se obtiene:
 
 $`\det(AB) = -25`$
 
-- En la libreta se calculan los determinantes individuales:
 
 $`\det(A) = 5`$  
 $`\det(B) = -5`$
 
-Y se verifica:
+
 
 $`\det(A)\cdot\det(B) = 5 \cdot (-5) = -25`$
 
-**Resultados finales (según tu libreta):**  
+**Resultados finales:**  
 $`\det(AB) = -25`$  
 $`\det(A) = 5`$  
 $`\det(B) = -5`$  
 Verificación: $`\det(AB) = \det(A)\det(B) = -25`$
 
-**Además (según tu libreta):** la transposición de A aparece como:
+**Además:** la transposición de A aparece como:
 
 $`A^T = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}`$  
 
@@ -188,11 +183,11 @@ Vectores:
 $`u = \begin{bmatrix} 3 \\ 2 \end{bmatrix}`$  
 $`v = \begin{bmatrix} 1 \\ 4 \end{bmatrix}`$
 
-**Procedimiento (según tu libreta):**  
+**Procedimiento:**  
 Matriz formada: $` \begin{bmatrix} 3 & 1 \\ 2 & 4 \end{bmatrix}`$  
 Determinante: $`3\cdot4 - 1\cdot2 = 12 - 2 = 10`$
 
-**Resultados finales (según tu libreta):**  
+**Resultados finales:**  
 a) Área: **10**  
 b) Intercambiando vectores: $` \begin{bmatrix} 1 & 3 \\ 4 & 2 \end{bmatrix}`$ → determinante = **-10**  
 c) Interpretación: **El signo negativo representa que la orientación de los vectores es negativa, es decir, va al contrario de las manecillas del reloj.**
