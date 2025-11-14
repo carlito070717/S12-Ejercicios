@@ -26,9 +26,8 @@ La fórmula general es:
 
 ### Matriz A
 
-\[
-A = \begin{pmatrix} 5 & 2 \\ 3 & 5 \end{pmatrix}
-\]
+Matriz:  
+$`\begin{bmatrix} 5 & 2 \\ 3 & 5 \end{bmatrix}`$
 
 \[
 \det(A) = (5)(5) - (2)(3) = 25 - 6 = \mathbf{-1}
@@ -38,9 +37,8 @@ A = \begin{pmatrix} 5 & 2 \\ 3 & 5 \end{pmatrix}
 
 ### Matriz B
 
-\[
-B = \begin{pmatrix} -1 & 4 \\ 2 & -8 \end{pmatrix}
-\]
+Matriz:  
+$`\begin{bmatrix} -1 & 4 \\ 2 & -8 \end{bmatrix}`$
 
 \[
 \det(B) = (-1)(-8) - (4)(2) = 8 - 8 = \mathbf{0}
@@ -50,9 +48,8 @@ B = \begin{pmatrix} -1 & 4 \\ 2 & -8 \end{pmatrix}
 
 ### Matriz C
 
-\[
-C = \begin{pmatrix} 6 & 9 \\ 2 & 3 \end{pmatrix}
-\]
+Matriz:  
+$`\begin{bmatrix} 6 & 9 \\ 2 & 3 \end{bmatrix}`$
 
 \[
 \det(C) = (6)(3) - (9)(2) = 18 - 18 = \mathbf{0}
@@ -62,9 +59,8 @@ C = \begin{pmatrix} 6 & 9 \\ 2 & 3 \end{pmatrix}
 
 ### Matriz D
 
-\[
-D = \begin{pmatrix} 0 & 5 \\ -5 & 0 \end{pmatrix}
-\]
+Matriz:  
+$`\begin{bmatrix} 0 & 5 \\ -5 & 0 \end{bmatrix}`$
 
 \[
 \det(D) = (0)(0) - (5)(-5) = \mathbf{25}
@@ -78,13 +74,8 @@ D = \begin{pmatrix} 0 & 5 \\ -5 & 0 \end{pmatrix}
 
 ### Matriz E
 
-\[
-E = \begin{pmatrix}
-1 & 2 & 3 \\
-4 & 1 & 0 \\
-5 & 6 & 0
-\end{pmatrix}
-\]
+Matriz:  
+$`\begin{bmatrix} 1 & 2 & 3 \\ 4 & 1 & 0 \\ 5 & 6 & 0 \end{bmatrix}`$
 
 Diagonales principales:
 
@@ -106,13 +97,8 @@ Diagonales secundarias:
 
 ### Matriz F
 
-\[
-F = \begin{pmatrix}
-2 & -1 & 3 \\
-1 & 1 & 0 \\
-3 & 2 & -1
-\end{pmatrix}
-\]
+Matriz:  
+$`\begin{bmatrix} 2 & -1 & 3 \\ 1 & 1 & 0 \\ 3 & 2 & -1 \end{bmatrix}`$
 
 Diagonales principales:
 
@@ -134,13 +120,8 @@ Diagonales secundarias:
 
 # Ejercicio 3 — Cofactores y determinante 3×3
 
-\[
-G = \begin{pmatrix}
-1 & 0 & 2 \\
--3 & 1 & 1 \\
-2 & 0 & 1
-\end{pmatrix}
-\]
+Matriz:  
+$`\begin{bmatrix} 1 & 0 & 2 \\ -3 & 1 & 1 \\ 2 & 0 & 1 \end{bmatrix}`$
 
 Expansión por la primera fila:
 
@@ -175,33 +156,26 @@ Se verificó multiplicando matrices 2×2 dadas por el profesor.
 
 # Ejercicio 5 — Interpretación geométrica
 
-Vectores:
+Vectores:  
 
-\[
-u = \begin{pmatrix} 3 \\ 2 \end{pmatrix}, \quad
-v = \begin{pmatrix} 1 \\ 4 \end{pmatrix}
-\]
+$`\begin{bmatrix} 3 \\ 2 \end{bmatrix}`$  
+$`\begin{bmatrix} 1 \\ 4 \end{bmatrix}`$
 
-Matriz formada:
-
-\[
-M = \begin{pmatrix} 3 & 1 \\ 2 & 4 \end{pmatrix}
-\]
+Matriz formada:  
+$`\begin{bmatrix} 3 & 1 \\ 2 & 4 \end{bmatrix}`$
 
 \[
 \det(M)=12 - 2 = \mathbf{10}
 \]
 
 Interpretación:  
-El determinante representa el **área del paralelogramo** formado por los vectores.
+El determinante representa el **área del paralelogramo** generado por los vectores.
 
 ---
 
-### Caso b
+### Caso b — Vectores intercambiados
 
-\[
-M = \begin{pmatrix} 1 & 3 \\ 4 & 2 \end{pmatrix}
-\]
+$`\begin{bmatrix} 1 & 3 \\ 4 & 2 \end{bmatrix}`$
 
 \[
 \det(M)=2 - 12 = \mathbf{-10}
@@ -209,7 +183,8 @@ M = \begin{pmatrix} 1 & 3 \\ 4 & 2 \end{pmatrix}
 
 ### Caso c — Signo
 
-El signo negativo indica orientación **horaria**, es decir, en sentido contrario al giro anti–horario estándar.
+El signo negativo indica orientación **horaria**, en sentido contrario al giro anti–horario estándar.
 
 ---
+
 
