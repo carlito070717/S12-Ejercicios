@@ -27,7 +27,7 @@ La fórmula general es:
 ### Matriz A
 
 \[
-A = \begin{bmatrix} 5 & 2 \\ 3 & 5 \end{bmatrix}
+A = \begin{pmatrix} 5 & 2 \\ 3 & 5 \end{pmatrix}
 \]
 
 \[
@@ -39,7 +39,7 @@ A = \begin{bmatrix} 5 & 2 \\ 3 & 5 \end{bmatrix}
 ### Matriz B
 
 \[
-B = \begin{bmatrix} -1 & 4 \\ 2 & -8 \end{bmatrix}
+B = \begin{pmatrix} -1 & 4 \\ 2 & -8 \end{pmatrix}
 \]
 
 \[
@@ -51,7 +51,7 @@ B = \begin{bmatrix} -1 & 4 \\ 2 & -8 \end{bmatrix}
 ### Matriz C
 
 \[
-C = \begin{bmatrix} 6 & 9 \\ 2 & 3 \end{bmatrix}
+C = \begin{pmatrix} 6 & 9 \\ 2 & 3 \end{pmatrix}
 \]
 
 \[
@@ -63,7 +63,7 @@ C = \begin{bmatrix} 6 & 9 \\ 2 & 3 \end{bmatrix}
 ### Matriz D
 
 \[
-D = \begin{bmatrix} 0 & 5 \\ -5 & 0 \end{bmatrix}
+D = \begin{pmatrix} 0 & 5 \\ -5 & 0 \end{pmatrix}
 \]
 
 \[
@@ -79,14 +79,12 @@ D = \begin{bmatrix} 0 & 5 \\ -5 & 0 \end{bmatrix}
 ### Matriz E
 
 \[
-E = \begin{bmatrix}
+E = \begin{pmatrix}
 1 & 2 & 3 \\
 4 & 1 & 0 \\
 5 & 6 & 0
-\end{bmatrix}
+\end{pmatrix}
 \]
-
-Sarrus:
 
 Diagonales principales:
 
@@ -109,11 +107,11 @@ Diagonales secundarias:
 ### Matriz F
 
 \[
-F = \begin{bmatrix}
+F = \begin{pmatrix}
 2 & -1 & 3 \\
 1 & 1 & 0 \\
 3 & 2 & -1
-\end{bmatrix}
+\end{pmatrix}
 \]
 
 Diagonales principales:
@@ -134,17 +132,14 @@ Diagonales secundarias:
 
 ---
 
-# Ejercicio 3 — Cofactores y determinante de una matriz 3×3
-
-Matriz:
+# Ejercicio 3 — Cofactores y determinante 3×3
 
 \[
-G =
-\begin{bmatrix}
+G = \begin{pmatrix}
 1 & 0 & 2 \\
 -3 & 1 & 1 \\
 2 & 0 & 1
-\end{bmatrix}
+\end{pmatrix}
 \]
 
 Expansión por la primera fila:
@@ -183,28 +178,29 @@ Se verificó multiplicando matrices 2×2 dadas por el profesor.
 Vectores:
 
 \[
-u = \begin{bmatrix} 3 \\ 2 \end{bmatrix}, \quad
-v = \begin{bmatrix} 1 \\ 4 \end{bmatrix}
+u = \begin{pmatrix} 3 \\ 2 \end{pmatrix}, \quad
+v = \begin{pmatrix} 1 \\ 4 \end{pmatrix}
 \]
 
 Matriz formada:
 
 \[
-M = \begin{bmatrix} 3 & 1 \\ 2 & 4 \end{bmatrix}
+M = \begin{pmatrix} 3 & 1 \\ 2 & 4 \end{pmatrix}
 \]
 
 \[
-\det(M)=12-2= \mathbf{10}
+\det(M)=12 - 2 = \mathbf{10}
 \]
 
-El determinante representa el **área del paralelogramo** generado por los vectores.
+Interpretación:  
+El determinante representa el **área del paralelogramo** formado por los vectores.
 
 ---
 
-### Caso b — Vectores intercambiados
+### Caso b
 
 \[
-M = \begin{bmatrix} 1 & 3 \\ 4 & 2 \end{bmatrix}
+M = \begin{pmatrix} 1 & 3 \\ 4 & 2 \end{pmatrix}
 \]
 
 \[
@@ -213,6 +209,7 @@ M = \begin{bmatrix} 1 & 3 \\ 4 & 2 \end{bmatrix}
 
 ### Caso c — Signo
 
-El signo negativo indica orientación **horaria**, en sentido contrario al giro anti–horario estándar.
+El signo negativo indica orientación **horaria**, es decir, en sentido contrario al giro anti–horario estándar.
 
 ---
+
