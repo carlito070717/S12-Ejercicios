@@ -17,7 +17,7 @@ Documentar los procedimientos realizados para el cálculo de determinantes de ma
 
 # Ejercicio 1 — Determinantes de matrices 2×2
 
-Se calcularon determinantes usando:
+Se usa la fórmula:
 
 $`\det(A)=ad-bc`$
 
@@ -35,7 +35,7 @@ Resultado final:
 
 ## Matriz B
 
-$`\begin{bmatrix} -1 & 4 \\ 2 & -8 \end{bmatrix}``
+$`\begin{bmatrix} -1 & 4 \\ 2 & -8 \end{bmatrix}`$
 
 Resultado final:
 
@@ -45,7 +45,7 @@ Resultado final:
 
 ## Matriz C
 
-$`\begin{bmatrix} 6 & 9 \\ 2 & 3 \end{bmatrix}``
+$`\begin{bmatrix} 6 & 9 \\ 2 & 3 \end{bmatrix}`$
 
 Resultado final:
 
@@ -55,7 +55,7 @@ Resultado final:
 
 ## Matriz D
 
-$`\begin{bmatrix} 0 & 5 \\ -5 & 0 \end{bmatrix}``
+$`\begin{bmatrix} 0 & 5 \\ -5 & 0 \end{bmatrix}`$
 
 Resultado final:
 
@@ -73,7 +73,7 @@ $`\begin{bmatrix}
 1 & 2 & 3 \\  
 4 & 1 & 0 \\  
 5 & 6 & 0  
-\end{bmatrix}``
+\end{bmatrix}`$
 
 Resultado final:
 
@@ -113,7 +113,7 @@ Resultado final:
 
 # Ejercicio 4 — Propiedad del determinante
 
-Resultado final:
+Resultados finales:
 
 **-25**  
 **5**
@@ -137,7 +137,6 @@ b) Intercambiando vectores:
 
 c) Interpretación:
 
-**El signo negativo representa orientación negativa: va al contrario de las manecillas del reloj.**
+**El signo negativo indica que la orientación es contraria a las manecillas del reloj.**
 
 ---
-
