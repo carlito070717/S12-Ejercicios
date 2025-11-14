@@ -1,10 +1,10 @@
 # Nombre: Carlos Alfonso Llanes  
 # Materia: Fundamentos de Álgebra  
 # Mtro: Jorge Javier Pedrozo  
-# Fecha: 7/11/2025  
+# Fecha: 14/11/2025  
 # Grupo: 1C  
 
-# Álgebra Lineal — Determinantes, Cofactores y Geometría (07/11/2025)
+# Álgebra Lineal — Determinantes, Cofactores y Geometría (14/11/2025)
 
 ---
 
