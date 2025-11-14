@@ -75,7 +75,7 @@ La regla de Sarrus: extender las dos primeras columnas y sumar las diagonales pr
 
 ---
 
-## Matriz E  *(corregida según tu último mensaje)*
+## Matriz E 
 
 $`\begin{bmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{bmatrix}`$
 
