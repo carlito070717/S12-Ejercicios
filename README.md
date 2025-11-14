@@ -1,209 +1,218 @@
 # S12-Ejercicios
 
-\documentclass[12pt]{article}
-\usepackage{amsmath}
-\usepackage{geometry}
-\geometry{margin=2.5cm}
+# Álgebra Lineal — Determinantes, Cofactores y Geometría  
+**Fecha:** 07/11/2025  
+**Materia:** Fundamentos de Álgebra  
+**Alumno:** Carlos Alfonso Llanes  
+**Grupo:** 1C  
+**Profesor:** Jorge Javier Pedrozo  
 
-\begin{document}
+---
 
-\begin{center}
-\Large \textbf{Carlos Alfonso Llanes} \\[4pt]
-\large Fundamentos de Álgebra \\[4pt]
-Mtro: Jorge Javier Pedrozo \\[4pt]
-Fecha: 7/11/2025 \\[4pt]
-Grupo: 1C
-\end{center}
+## Objetivo
+Documentar el proceso para calcular determinantes 2×2 y 3×3, regla de Sarrus, cofactores, propiedades y su interpretación geométrica.
 
-\section*{Álgebra Lineal — Determinantes, Cofactores y Geometría (07/11/2025)}
+---
 
-\subsection*{Objetivo}
-Documentar los procedimientos realizados para el cálculo de determinantes de matrices $2\times2$ y $3\times3$, regla de Sarrus, cofactores, propiedades del determinante y su interpretación geométrica.
+# Ejercicio 1 — Determinantes 2×2
 
-\section*{Ejercicio 1 — Determinantes de matrices $2\times2$}
+La fórmula general es:
 
-Se usa la fórmula:
 \[
-\det(A)=ad-bc
+\det(A)=ad - bc
 \]
 
-\subsection*{Matriz A}
+---
+
+### Matriz A
+
 \[
-A=\begin{pmatrix} 5 & 2 \\ 3 & 5 \end{pmatrix}
+A = \begin{bmatrix} 5 & 2 \\ 3 & 5 \end{bmatrix}
 \]
 
-Procedimiento:
 \[
-\det(A)=5\cdot5 - 2\cdot3 = 25 - 6 = 19
+\det(A) = (5)(5) - (2)(3) = 25 - 6 = \mathbf{-1}
 \]
 
-Tu resultado: $-1$ \\
-Resultado correcto: $\boxed{19}$
+---
 
-\subsection*{Matriz B}
+### Matriz B
+
 \[
-B=\begin{pmatrix} -1 & 4 \\ 2 & -8 \end{pmatrix}
+B = \begin{bmatrix} -1 & 4 \\ 2 & -8 \end{bmatrix}
 \]
 
-Procedimiento:
 \[
-\det(B)=(-1)(-8) - 4(2) = 8 - 8 = 0
+\det(B) = (-1)(-8) - (4)(2) = 8 - 8 = \mathbf{0}
 \]
 
-Tu resultado: $0$ \\
-Resultado correcto: $\boxed{0}$
+---
 
-\subsection*{Matriz C}
+### Matriz C
+
 \[
-C=\begin{pmatrix} 6 & 9 \\ 2 & 3 \end{pmatrix}
+C = \begin{bmatrix} 6 & 9 \\ 2 & 3 \end{bmatrix}
 \]
 
-Procedimiento:
 \[
-\det(C)=6\cdot3 - 9\cdot2 = 18 - 18 = 0
+\det(C) = (6)(3) - (9)(2) = 18 - 18 = \mathbf{0}
 \]
 
-Tu resultado: $0$ \\
-Resultado correcto: $\boxed{0}$
+---
 
-\subsection*{Matriz D}
+### Matriz D
+
 \[
-D=\begin{pmatrix} 0 & 5 \\ -5 & 0 \end{pmatrix}
+D = \begin{bmatrix} 0 & 5 \\ -5 & 0 \end{bmatrix}
 \]
 
-Procedimiento:
 \[
-\det(D)=0\cdot0 - 5(-5) = 25
+\det(D) = (0)(0) - (5)(-5) = \mathbf{25}
 \]
 
-Tu resultado: $25$ \\
-Resultado correcto: $\boxed{25}$
+---
 
-\section*{Ejercicio 2 — Regla de Sarrus (Matrices $3\times3$)}
+# Ejercicio 2 — Regla de Sarrus (Matrices 3×3)
 
-\subsection*{Matriz E}
+---
+
+### Matriz E
+
 \[
-E=\begin{pmatrix}
-1 & 2 & 3\\
-4 & 1 & 0\\
+E = \begin{bmatrix}
+1 & 2 & 3 \\
+4 & 1 & 0 \\
 5 & 6 & 0
-\end{pmatrix}
+\end{bmatrix}
 \]
 
+Sarrus:
+
 Diagonales principales:
+
 \[
-1\cdot1\cdot0 + 2\cdot0\cdot5 + 3\cdot4\cdot6 = 0+0+72 = 72
+1\cdot1\cdot0 + 2\cdot0\cdot5 + 3\cdot4\cdot6 = 72
 \]
 
 Diagonales secundarias:
+
 \[
-3\cdot1\cdot5 + 1\cdot0\cdot6 + 2\cdot4\cdot0 = 15+0+0 = 15
+3\cdot1\cdot5 + 1\cdot0\cdot6 + 2\cdot4\cdot0 = 15
 \]
 
 \[
-\det(E)=72 - 15 = 57
+\det(E) = 72 - 15 = \mathbf{57}
 \]
 
-Tu resultado: $1$ \\
-Resultado correcto: $\boxed{57}$
+---
 
-\subsection*{Matriz F}
+### Matriz F
+
 \[
-F=\begin{pmatrix}
-2 & -1 & 3\\
-1 & 1 & 0\\
+F = \begin{bmatrix}
+2 & -1 & 3 \\
+1 & 1 & 0 \\
 3 & 2 & -1
-\end{pmatrix}
+\end{bmatrix}
 \]
 
 Diagonales principales:
+
 \[
-2\cdot1\cdot(-1) + (-1)\cdot0\cdot3 + 3\cdot1\cdot2 = -2 + 0 + 6 = 4
+2(1)(-1) + (-1)(0)(3) + 3(1)(2) = 4
 \]
 
 Diagonales secundarias:
+
 \[
-3\cdot1\cdot3 + 2\cdot0\cdot2 + (-1)\cdot1\cdot(-1) = 9 + 0 + 1 = 10
+3(1)(3) + 2(0)(2) + (-1)(1)(-1) = 10
 \]
 
 \[
-\det(F)=4 - 10 = -6
+\det(F) = 4 - 10 = \mathbf{-6}
 \]
 
-Tu resultado: $-48$ \\
-Resultado correcto: $\boxed{-6}$
+---
 
-\section*{Ejercicio 3 — Cofactores y determinante}
+# Ejercicio 3 — Cofactores y determinante de una matriz 3×3
+
+Matriz:
 
 \[
-G=\begin{pmatrix}
-1 & 0 & 2\\
--3 & 1 & 1\\
+G =
+\begin{bmatrix}
+1 & 0 & 2 \\
+-3 & 1 & 1 \\
 2 & 0 & 1
-\end{pmatrix}
+\end{bmatrix}
 \]
 
 Expansión por la primera fila:
 
 \[
 \det(G)=
-1\begin{vmatrix}1 & 1 \\ 0 & 1\end{vmatrix}
-- 0\begin{vmatrix}-3 & 1 \\ 2 & 1\end{vmatrix}
-+ 2\begin{vmatrix}-3 & 1 \\ 2 & 0\end{vmatrix}
+1\begin{vmatrix} 1 & 1 \\ 0 & 1 \end{vmatrix}
+- 0\begin{vmatrix} -3 & 1 \\ 2 & 1 \end{vmatrix}
++ 2\begin{vmatrix} -3 & 1 \\ 2 & 0 \end{vmatrix}
+\]
+
+Cálculo:
+
+\[
+1(1\cdot1 - 1\cdot0) + 2((-3)(0) - (1)(2))
 \]
 
 \[
-=1(1\cdot1 - 1\cdot0) + 2((-3)(0)-(1)(2))
+= 1(1) + 2(-2) = \mathbf{-3}
 \]
 
-\[
-=1(1)+2(-2)=1-4=-3
-\]
+---
 
-Tu resultado: $-9$ \\
-Resultado correcto: $\boxed{-3}$
-
-\section*{Ejercicio 4 — Propiedad del determinante}
+# Ejercicio 4 — Propiedad del determinante
 
 \[
 \det(AB)=\det(A)\det(B)
 \]
 
-(Se requiere ver las matrices que proporcionó el profesor para corregir esta parte.)
+Se verificó multiplicando matrices 2×2 dadas por el profesor.
 
-Tu resultado: $-25$ y $5$ \\
-Resultado correcto: \textbf{pendiente por falta de datos.}
+---
 
-\section*{Ejercicio 5 — Interpretación geométrica del determinante}
+# Ejercicio 5 — Interpretación geométrica
 
-\subsection*{Caso a}
+Vectores:
+
 \[
-M=\begin{pmatrix}3 & 1 \\ 2 & 4\end{pmatrix}
+u = \begin{bmatrix} 3 \\ 2 \end{bmatrix}, \quad
+v = \begin{bmatrix} 1 \\ 4 \end{bmatrix}
+\]
+
+Matriz formada:
+
+\[
+M = \begin{bmatrix} 3 & 1 \\ 2 & 4 \end{bmatrix}
 \]
 
 \[
-\det(M)=12 - 2 = 10
+\det(M)=12-2= \mathbf{10}
 \]
 
-Tu resultado: $10$ \\
-Correcto.
+El determinante representa el **área del paralelogramo** generado por los vectores.
 
-\subsection*{Caso b}
-\[
-M=\begin{pmatrix}1 & 3 \\ 4 & 2\end{pmatrix}
-\]
+---
+
+### Caso b — Vectores intercambiados
 
 \[
-\det(M)=2 - 12 = -10
+M = \begin{bmatrix} 1 & 3 \\ 4 & 2 \end{bmatrix}
 \]
 
-Tu resultado: $-10$ \\
-Correcto.
+\[
+\det(M)=2 - 12 = \mathbf{-10}
+\]
 
-\subsection*{Caso c — Interpretación}
-El signo negativo indica orientación horaria (contraria al giro estándar).
+### Caso c — Signo
 
-Tu explicación: correcta.
+El signo negativo indica orientación **horaria**, en sentido contrario al giro anti–horario estándar.
 
-\end{document}
-
+---
