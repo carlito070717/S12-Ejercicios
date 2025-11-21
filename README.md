@@ -5,7 +5,7 @@
 # Grupo: 1C  
 
 
-# MATRICES EN FORMATO LATEX
+
 
 ## Diagonal
 
@@ -181,4 +181,117 @@ $`\begin{bmatrix}
 0.9924716620639604 & 0.9552486587271399 & 0.9192388155425117 & 0.8845903006477066 & 0.8514693182963201 & 0.8200609733428363 & 0.7905694150420948 & 0.7632168761236874 & 0.73824115301167 & 0.7158910531638176 & 0.6964194138592059 & 0.6800735254367722 & 0.6670832032063168 & 0.6576473218982952 & 0.6519202405202649 & 0.65 & 0.6519202405202649 & 0.6576473218982952 & 0.6670832032063168 & 0.6800735254367722 & 0.6964194138592059 & 0.7158910531638176 & 0.73824115301167 & 0.7632168761236874 & 0.7905694150420948 & 0.8200609733428363 & 0.8514693182963201 & 0.8845903006477066 & 0.9192388155425117 & 0.9552486587271399 \\
 1.0 & 0.9899494936611666 & 0.9552486587271399 & 0.9219544457292888 & 0.8902246907382428 & 0.8602325267042626 & 0.8321658488546619 & 0.8062257748298549 & 0.7826237921249264 & 0.7615773105863909 & 0.7433034373659253 & 0.7280109889280518 & 0.7158910531638176 & 0.7071067811865476 & 0.70178344238091 & 0.7 & 0.70178344238091 & 0.7071067811865476 & 0.7158910531638176 & 0.7280109889280518 & 0.7433034373659253 & 0.7615773105863909 & 0.7826237921249264 & 0.8062257748298549 & 0.8321658488546619 & 0.8602325267042626 & 0.8902246907382428 & 0.9219544457292888 & 0.9552486587271399 & 0.9899494936611666
 \end{bmatrix}`$
+
+
+
+# Procedimiento para crear y hacer operaciones con cibujos de escalas de colores en excel:
+
+## 1. Crear el dibujo con Formato Condicional (Escala de Colores)
+
+**Menú → Inicio → Formato Condicional → Escalas de color → Seleccionar escala**
+
+1. Selecciona el rango donde construirás tu dibujo (por ejemplo 30×30).
+2. Ingresa valores numéricos (0, 1, 2, etc.) según el diseño que quieras formar.
+3. Aplica la escala de color:
+   - **Menú → Inicio → Formato Condicional → Escalas de color**
+   - Selecciona la escala de tu preferencia.
+4. El dibujo se genera automáticamente con base en los valores de la matriz.
+
+---
+
+## 2. Suma de matrices
+
+**Menú → Fórmulas → Autosuma → Más funciones → Matemáticas → SUMA**
+
+- Para una celda:
+```
+=A1 + B1
+```
+
+- Para matrices completas:
+```
+=Hoja1!A1:AD30 + Hoja2!A1:AD30
+```
+
+En versiones antiguas confirma con **Ctrl + Shift + Enter**.
+
+---
+
+## 3. Resta de matrices
+
+**Menú → Fórmulas → Insertar función → Matemáticas → RESTA (o usar operador -)**
+
+- General:
+```
+=A1 - B1
+```
+
+- Matrices completas:
+```
+=Hoja1!A1:AD30 - Hoja2!A1:AD30
+```
+
+---
+
+## 4. Transpuesta de una matriz
+
+**Menú → Fórmulas → Insertar función → Buscar “TRANSPONER”**
+
+1. Selecciona un rango de salida invertido.
+2. Escribe:
+```
+=TRANSPONER(A1:AD30)
+```
+3. Confirma con **Ctrl + Shift + Enter** si tu Excel lo requiere.
+
+---
+
+## 5. Multiplicación Escalar
+
+**Menú → Fórmulas → Insertar función → Matemáticas → Multiplicar (o usar operador *)**
+
+- General:
+```
+= k * A1
+```
+
+- Matriz completa:
+```
+= 5 * (A1:AD30)
+```
+
+Excel moderno expande la operación automáticamente.
+
+---
+
+## 6. Reaplicar Formato Condicional a resultados
+
+**Menú → Inicio → Formato condicional → Escalas de color → Seleccionar escala**
+
+Esto vuelve a generar el dibujo visual con la nueva matriz.
+
+---
+
+## 7. Composición de matrices
+
+La *composición* es el proceso de combinar dos dibujos (dos matrices de colores) para generar uno nuevo. Se hace celda por celda.
+
+### 📌 Método 1: Composición por suma lógica (dibujos combinados)
+ 
+ - Usamos la siguiente fórmula para realizar la operación:
+
+```
+=HojaA!A1:AD30 + HojaB!A1:AD30
+```
+
+Después se aplica formato condicional:
+
+**Menú → Inicio → Formato Condicional → Escalas de color**
+
+---
+
+
+
+**Menú → Inicio → Formato Condicional → Escalas de color**  
+para visualizar la composición final.
 
