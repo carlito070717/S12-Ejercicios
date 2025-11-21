@@ -193,9 +193,9 @@ $`\begin{bmatrix}
 1. Selecciona el rango donde construirás tu dibujo (por ejemplo 30×30).
 2. Ingresa valores numéricos (0, 1, 2, etc.) según el diseño que quieras formar.
 3. Aplica la escala de color:
-   - **Menú → Inicio → Formato Condicional → Escalas de color**
-   - Selecciona la escala de tu preferencia.
-4. El dibujo se genera automáticamente con base en los valores de la matriz.
+**Menú → Inicio → Formato Condicional → Escalas de color**
+Selecciona la escala de tu preferencia.
+4. El dibujo se genera automáticamente cuando apliques la escala.
 
 ---
 
