@@ -4,6 +4,7 @@
 # Fecha: 21/11/2025  
 # Grupo: 1C  
 
+---
 
 ## MATRICES DE LOS DIBUJOS 
 
