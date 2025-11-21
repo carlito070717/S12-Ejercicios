@@ -242,26 +242,21 @@ En versiones antiguas confirma con **Ctrl + Shift + Enter**.
 ```
 =TRANSPONER(A1:AD30)
 ```
-3. Confirma con **Ctrl + Shift + Enter** si tu Excel lo requiere.
 
 ---
 
 ## 5. Multiplicación Escalar
 
+Funciona con cualquier valor que coloques.
+
 **Menú → Fórmulas → Insertar función → Matemáticas → Multiplicar (o usar operador *)**
 
-- General:
-```
-= k * A1
-```
 
-- Matriz completa:
+- Hice la multiplicación usando en mi caso la fórmula:
 ```
-= 5 * (A1:AD30)
+=Diagonal!A1 * $AG$3
 ```
-
-Excel moderno expande la operación automáticamente.
-
+- Así dependiendo del dibujo que vayas a usar y la celda donde esté el escalar.
 ---
 
 ## 6. Reaplicar Formato Condicional a resultados
@@ -276,7 +271,7 @@ Esto vuelve a generar el dibujo visual con la nueva matriz.
 
 La *composición* es el proceso de combinar dos dibujos (dos matrices de colores) para generar uno nuevo. Se hace celda por celda.
 
-### 📌 Método 1: Composición por suma lógica (dibujos combinados)
+### Composición por suma lógica (dibujos combinados)
  
  - Usamos la siguiente fórmula para realizar la operación:
 
